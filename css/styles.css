@@ -1,0 +1,265 @@
+:root {
+    --text-decoration-color: #4D5AE5;
+    --text-title-color: #2E2F42;
+    --white-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    background-color: var(--white-color);
+    color: #434455;
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+
+/*navigation menu*/
+
+.navigation {}
+
+
+.header-logo {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-decoration-color);
+
+}
+
+.fraction-logo {
+    color: var(--text-title-color);
+}
+
+.navigation-menu {}
+
+.navigation-list {}
+
+.stud {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-title-color);
+}
+
+.stud:hover,
+.stud:focus {
+    color: #404bbf;
+}
+
+/*contacts*/
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-mail {}
+
+.contacts-tel {}
+
+.address-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+/*hero image*/
+
+.hero-section {
+    background: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+    background: #4D5AE5;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--white-color);
+        cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.hero-button-text {}
+
+/*description*/
+
+.description-title {}
+
+.one-list {}
+
+.strategy {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-title-color);
+}
+
+.strategy-parag {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*presentation section*/
+
+.presentation-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-title-color);
+}
+
+.presentation-list {}
+
+/*Team*/
+
+.team {
+    background: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-title-color);
+}
+
+.team-list {}
+
+.team-names {
+    background-color: #FFFFFF;
+}
+.one-name-photo {}
+
+.one-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-title-color);
+}
+
+.one-name-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.two-name-photo {}
+
+.three-name-photo {}
+
+.four-name-photo {}
+
+/*Portfolio*/
+
+.portfolio {}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 2%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.row {}
+
+.interface-concept {}
+
+.title-concept {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-title-color);
+}
+
+.list-portfolio {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+.payment {}
+
+.meditation {}
+
+.taxi {}
+
+.screen {}
+
+.courses {}
+
+
+/*Footer*/
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.fraction-footer {
+    color: #f4f4fd;
+}
+
+.footer-parag {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
