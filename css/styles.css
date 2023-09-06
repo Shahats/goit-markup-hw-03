@@ -117,8 +117,6 @@ img {
         gap: 40px;
 }
 
-.list contacts {
-}
 
 .contacts-mail {
     padding-right: 40px;
@@ -142,6 +140,7 @@ img {
 
 .hero-section {
     background: #2E2F42;
+    padding: 188px 0;
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
@@ -154,7 +153,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    padding: 188px 472px 48px;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -166,7 +165,11 @@ img {
         letter-spacing: 0.04em;
         color: var(--white-color);
         cursor: pointer;
-        display: inline-flex;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
         padding: 16px 32px;
         align-items: flex-start;
         gap: 10px;
@@ -183,6 +186,7 @@ img {
 /*description*/
 
 .description {
+    padding: 120px 0;
     width: 1128px;
     flex-shrink: 0;
     margin-left: 156px;
@@ -200,6 +204,7 @@ img {
 }
 
 .strategy-list {
+    width: calc((100% - 72px) / 4);
     padding-right: 24px;
 }
 
@@ -209,6 +214,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--text-title-color);
+    margin-bottom: 8px;
 }
 
 .strategy-parag {
@@ -219,18 +225,7 @@ img {
     color: #434455;
 }
 
-/*presentation section*/
 
-.presentation-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--text-title-color);
-}
-
-.presentation-list {}
 
 /*Team*/
 
@@ -239,6 +234,7 @@ img {
     width: 1440px;
     height: 732px;
     flex-shrink: 0;
+    padding: 120px 0;
 }
 
 .team-title {
